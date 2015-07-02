@@ -69,7 +69,6 @@ if ($result -ne 1) {
 #-------------------------------------------------------------------------------
 if (! (Test-Path -Path $moonriseDataDir)) {
   $result = $wshell.Popup($strErrorNotFound, 0, $strDialogTitle, 0)
-  exit
 }
 
 
